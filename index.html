@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF=8"/>
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv= "X-UA-Compatible" content="ie=edge" />
+        <title>Random Password Generator</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Random Password Generator</h1>
+            </header>
+            <div class="card">
+                <h2>Generate a password</h2>
+            </div>
+            <div class="card-body">
+                <textarea
+                readonly
+                id="password"
+                placeholder="Secure Password"
+                aria-label="Generated Password"></textarea>
+           </div>
+           <div class="card-footer">
+               <button id="generate" class="button">Generate Password</button>
+           </div>
+        </div>
+        <script src="script.js"></script>
+</html>
